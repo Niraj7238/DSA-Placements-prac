@@ -69,6 +69,9 @@ public class ArrayManipulationProblem{
      }
 
 
+     
+
+
      // mode finding using hashmap'
      static void getMode(int arr[]){
         HashMap<Integer, Integer> freq = new HashMap<>();
