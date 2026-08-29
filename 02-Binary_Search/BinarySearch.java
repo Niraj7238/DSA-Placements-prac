@@ -31,7 +31,7 @@ public class BinarySearch{
     }
     public static void main(String[] args) {
         int[] arr = { 2, 4, 6, 8, 10};
-        int target = 8;
+        int target = 10;
         BinarySearch bs = new BinarySearch();
         System.out.println(bs.binarySearching(arr, target));
     }
