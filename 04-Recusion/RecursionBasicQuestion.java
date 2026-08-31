@@ -1,5 +1,5 @@
 public class RecursionBasicQuestion{
-
+    // printing the name with recursion--------<>
     static void printMyName(int n){
         // base case 
         if(n==0){
@@ -12,7 +12,7 @@ public class RecursionBasicQuestion{
         printMyName(n - 1);
 
     }
-
+    // print number using recusion---------<>
     static void numbersPrint(int n, int count){
         // base case 
         if(count > n){
@@ -26,7 +26,7 @@ public class RecursionBasicQuestion{
         numbersPrint(n, count);
 
     }
-
+    // print n to 1 number using recusion -----------------<>
     static void printNto1(int n){
         // base case 
         if(n==0){
@@ -38,7 +38,7 @@ public class RecursionBasicQuestion{
         printNto1(n - 1);
     }
 
-
+    //  print array using recusion------------<>
     static void printMyNumber(int arr[] , int i){
         // base case 
         if(i>arr.length){
@@ -50,6 +50,8 @@ public class RecursionBasicQuestion{
         // R.C
         printMyNumber(arr, i + 1); 
     }
+
+    //  find maximum number using recusion------------<>
 
     static void findMax(int arr[], int i, int maxi){
 
@@ -68,7 +70,7 @@ public class RecursionBasicQuestion{
         findMax(arr, i + 1, maxi);
     }
 
-
+    //  find minimum number using recusion------------<>
 
     static void findMin(int arr[], int i, int mini){
 
@@ -89,7 +91,7 @@ public class RecursionBasicQuestion{
 
   
     
-    
+    //  finding target value using recusion-------<>
     static int findTarget(int arr[], int i, int target) {
 
         // Base case
